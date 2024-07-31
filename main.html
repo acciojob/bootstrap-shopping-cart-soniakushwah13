@@ -1,16 +1,135 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        .card {
+           text-align: center;
+        }
+    
+        .container {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+        }
+        .summary {
+            border-top: 1px solid #5ea4f3;
+            background-color: #f7fbff;
+             text-decoration: underline;
+            width: 500px;
+            font-size: 20px;
+            align-items: end;
+        }
+        .btn {
+            background-color: blue;
+            color: #f7fbff;
+            border-radius: 6px;
+        }
+        #quantity {
+            margin: 10px;
+            padding: 10px;
+            width: 50px;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #3b99e0;
+        }
+        h1 {
+            color:  #3b99e0;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="card">
+        <div class="row">
+            <div class="col-12 block-heading">
+    <h1>Shopping Card</h1>
+    <p>The customer is very importtant, the customer will be followed by the custoner. Now, as an urn, I have no right to be in possession of property.</p>
+</div>
+</div>
+    <div class="container">
+        <div class="products">
+            <div class="row">
+                <div class="img">
+                    <img src="https://media.ldlc.com/ld/products/00/05/81/99/LD0005819915_1.jpg" height="100px"
+                        width="100px">
+                </div>
+                <div class="productinf col-lg-8">
+                    <h2>I am very sorry</h2>
+                    <p>Display: 5 inches</p>
+                    <p>RAM: 4GB</p>
+                    <P>Memory: 32GB</P>
+                </div>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="number" id="quantity" name="quantity" placeholder="quantity">
+                </div>
+                <div class="dollar">
+                    <p>$120</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img">
+                    <img src="https://media.ldlc.com/ld/products/00/05/81/99/LD0005819915_1.jpg" height="100px"
+                        width="100px">
+                </div>
+                <div class="productinf col-lg-8">
+                    <h2>I am very sorry</h2>
+                    <p>Display: 5 inches</p>
+                    <p>RAM: 4GB</p>
+                    <P>Memory: 32GB</P>
+                </div>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="number" id="quantity" name="quantity" placeholder="quantity">
+                </div>
+                <div class="dollar">
+                    <p>$120</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="img">
+                    <img src="https://media.ldlc.com/ld/products/00/05/81/99/LD0005819915_1.jpg" height="100px"
+                        width="100px">
+                </div>
+                <div class="productinf col-lg-8">
+                    <h2>I am very sorry</h2>
+                    <p>Display: 5 inches</p>
+                    <p>RAM: 4GB</p>
+                    <P>Memory: 32GB</P>
+                </div>
+                <div class="Quantity">
+                    <label for="quantity">Quantity:</label><br>
+                    <input type="number" id="quantity" name="quantity" placeholder="quantity">
+                </div>
+                <div class="dollar">
+                    <p>$120</p>
+                </div>
+            </div>
+           
+        </div>
+        
+        <div class="summary">
+            <h3>Summary</h3>
+            <p class="underline">Subtotal &nbsp;&nbsp;&nbsp; $360</p>
+            <p class="underline">Discount &nbsp;&nbsp;&nbsp; $0</p>
+            <p class="underline">Shipping &nbsp;&nbsp;&nbsp; $0</p>
+            <p class="underline">Total &nbsp;&nbsp;&nbsp; $360</p>
+            <button class="btn">Checkout</button>
+        </div>
+    </div>
+</div>
 </body>
 
 </html>
